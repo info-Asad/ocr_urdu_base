@@ -45,15 +45,36 @@ project/
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### Option 1: GitHub Codespaces (Recommended) ⭐
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/info-Asad/ocr_urdu_base)
+
+**Perfect for training without local setup!**
+
+1. Click the badge above or go to [your repository](https://github.com/info-Asad/ocr_urdu_base)
+2. Click **"Code"** → **"Codespaces"** → **"Create codespace on main"**
+3. Wait for automatic setup (2-3 minutes)
+4. Run: `python test_setup.py` to verify installation
+5. Upload your dataset to `data/` folder
+6. Start training: `python urdu_ocr/train.py`
+
+**📋 See [CODESPACES.md](CODESPACES.md) for detailed instructions and tips.**
+
+### Option 2: Local Installation
+
+#### Prerequisites
 
 - Python 3.8 or higher
 - CUDA-capable GPU (recommended) or CPU
 - 8GB+ RAM recommended
 
-### Installation
+#### Installation
 
-1. **Clone or download this project**
+1. **Clone the repository**:
+```bash
+git clone https://github.com/info-Asad/ocr_urdu_base.git
+cd ocr_urdu_base
+```
 
 2. **Install dependencies**:
 ```bash
@@ -62,7 +83,7 @@ pip install -r requirements.txt
 
 3. **Verify installation**:
 ```bash
-python urdu_ocr/model.py
+python test_setup.py
 ```
 
 This will test the model architecture and display model summary.
