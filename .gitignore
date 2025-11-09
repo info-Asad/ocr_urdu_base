@@ -70,7 +70,7 @@ ehthumbs.db
 Thumbs.db
 
 # Project specific
-data/
+# data/ - Now tracked with Git LFS
 models/
 logs/
 checkpoints/
